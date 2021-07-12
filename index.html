@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="icon" href="./img.jpg">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <br />
+    <table>
+        <tr>
+            <td colspan="4"><input id="mainscreen" type="text"></td>
+        </tr>
+        <tr>
+            <td><button onclick="getnumber('7')">7</button></td>
+            <td><button onclick="getnumber('8')">8</button></td>
+            <td><button onclick="getnumber('9')">9</button></td>
+            <td><button onclick="getnumber('÷')">÷</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="getnumber('4')">4</button></td>
+            <td><button onclick="getnumber('5')">5</button></td>
+            <td><button onclick="getnumber('6')">6</button></td>
+            <td><button onclick="getnumber('*')">x</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="getnumber('1')">1</button></td>
+            <td><button onclick="getnumber('2')">2</button></td>
+            <td><button onclick="getnumber('3')">3</button></td>
+            <td><button onclick="getnumber('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="getnumber('.')">.</button></td>
+            <td><button onclick="getequal()">=</button></td>
+            <td><button onclick="getnumber('+')">+</button></td>
+            <td><button onclick="getclear()">C</button></td>
+        </tr>
+    </table>
+</body>
+<script src="./app.js"></script>
+</html>
